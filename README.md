@@ -59,10 +59,12 @@ Ensure you have the following installed on your machine:
     pip install -r requirements.txt
     ```
 
-5. Create a `.env` file in the backend directory with the necessary environment variables. Example:
+5. (Optional) Create a `.env` file in the backend directory with the necessary environment variables. Example:
     ```
     DATABASE_URL=mongodb://localhost:27017/coursedb
     ```
+
+    > **Note:** If you do not want to include environment variables in `.env` file, the application will default to using a MongoDB Atlas URL that is pre-configured for testing purposes.
 
 6. Start the FastAPI server:
     ```bash
@@ -86,7 +88,7 @@ Ensure you have the following installed on your machine:
 
 4. The application should now be accessible:
 
-    - **Frontend:** `http://localhost:5173`
+    - **Frontend:** `http://localhost:3000`
     - **Backend:** `http://localhost:8000`
 
 ### Common Docker Commands
