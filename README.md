@@ -61,7 +61,7 @@ Ensure you have the following installed on your machine:
 
 5. (Optional) Create a `.env` file in the backend directory with the necessary environment variables. Example:
     ```
-    DATABASE_URL=mongodb://localhost:27017/coursedb
+    DATABASE_URL=mongodb://localhost:27017
     ```
 
     > **Note:** If you do not want to include environment variables in `.env` file, the application will default to using a MongoDB Atlas URL that is pre-configured for testing purposes.
